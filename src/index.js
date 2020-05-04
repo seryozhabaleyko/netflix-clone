@@ -7,7 +7,7 @@ import { createBrowserHistory } from 'history';
 import store from 'store';
 import Routes from 'routes';
 
-import './index.css';
+import './index.scss';
 
 const history = createBrowserHistory();
 
