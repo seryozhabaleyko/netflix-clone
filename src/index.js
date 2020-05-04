@@ -5,7 +5,7 @@ import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 
 import store from 'store';
-import Routes from 'routes';
+import App from 'components/app';
 
 import './index.scss';
 
@@ -15,7 +15,7 @@ ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
             <Router history={history}>
-                <Routes />
+                <App />
             </Router>
         </Provider>
     </React.StrictMode>,
