@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+
+    @media (min-width: 1310px) {
+        max-width: 1310px;
+    }
+}
