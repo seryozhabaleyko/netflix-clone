@@ -1,11 +1,12 @@
-## Available Scripts
+# Valhalla
+Social networking service
 
-In the project directory, you can run:
+### Tech
+Valhalla uses a number of open source projects to work properly:
 
-### `yarn start`
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+* [React Router](https://reacttraining.com/react-router/web/guides/quick-start) - Declarative routing for React.
+* [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps.
+* [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Thunk middleware for Redux.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+And of course Valhalla itself is open source with a [public repository](https://github.com/seryozhabaleyko/netflix-clone) on GitHub.
