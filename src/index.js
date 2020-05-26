@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 
 import store from 'store';
 import App from 'components/App';
+import ErrorBoundary from 'components/ErrorBoundary';
 
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -38,9 +39,11 @@ const rrfProps = {
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <ReactReduxFirebaseProvider {...rrfProps}>
-                <App />
-            </ReactReduxFirebaseProvider>
+            <ErrorBoundary>
+                <ReactReduxFirebaseProvider {...rrfProps}>
+                    <App />
+                </ReactReduxFirebaseProvider>
+            </ErrorBoundary>
         </Provider>
     </React.StrictMode>,
     document.getElementById('root')
